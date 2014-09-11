@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game GSCVersion="0.9.91" PGFVersion="0.17" title="Basic Shoot Em Up">
+<game GSCVersion="0.10.5" PGFVersion="0.19" title="Basic Shoot Em Up">
   <tags>template, tutorial, shmup</tags>
   <resolutionIndependence>0</resolutionIndependence>
   <instructions>Learn how to create this game at
@@ -21,6 +21,9 @@ http://gamesalad.com/wiki/tutorials:basic_shoot_em_up</instructions>
     <actor id="id591440" />
     <actor id="id289207" />
     <actor id="id846875" />
+    <actor id="id375422" />
+    <actor id="id725598" />
+    <actor id="id112798" />
   </prototypes>
   <plugins>
     <attributes id="kiip">
@@ -35,8 +38,8 @@ http://gamesalad.com/wiki/tutorials:basic_shoot_em_up</instructions>
     <attributes id="playhaven" />
   </plugins>
   <scenes>
-    <scene id="id269551" />
     <scene id="id781812" />
+    <scene id="id326506" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -54,5 +57,7 @@ http://gamesalad.com/wiki/tutorials:basic_shoot_em_up</instructions>
     <table id="id517893" name="QQ Scoreboard">QQ Scoreboard</table>
     <table id="id613242" name="QQ Achievements">QQ Achievements</table>
     <table id="id454764" name="Purchases">Purchases</table>
+    <integer id="id173167" name="Player Health">100</integer>
+    <integer id="id597925" name="Boss Health">100</integer>
   </attributes>
 </game>
